@@ -1,0 +1,54 @@
+html{
+  height: 100%;
+
+}
+
+body{
+  background: rgb(224,13,117);
+background: linear-gradient(90deg, violet 0%, rgb(100, 100, 89) 40%, cyan 100%);
+}
+
+.flex{
+  margin: auto;
+  margin-top:15vh;
+  width: 70vh;
+  padding: 10px;
+  height: 70vh;
+}
+
+.status{
+  background-image: linear-gradient(to right, rgb(31, 30, 30), rgb(75, 75, 77));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  height: 41px;
+  border-radius: 5px;
+  width: 460px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 35px;
+}
+.btn{
+  height: 40px;
+  width: 130px;
+  left: 50vh;
+  position: relative;
+  bottom: 45px;
+  color: red;
+  border-radius: 5px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 25px;
+  background-image: linear-gradient(to left, rgb(252, 108, 108), rgb(81, 81, 87));
+}
+.buttonoption{
+  vertical-align: top;
+  background-color: transparent;
+  border-radius: 8px;
+  width: 155px;
+  height: 155px;
+  color: #ffff;
+  opacity: 0.8;
+  font-weight: bold;
+  border: 2px solid black;
+  font-size: 50px; 
+  cursor: pointer;
+}
